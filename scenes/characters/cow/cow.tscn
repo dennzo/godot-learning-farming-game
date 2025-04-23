@@ -1,10 +1,10 @@
 [gd_scene load_steps=15 format=3 uid="uid://b51n04uhiesfg"]
 
 [ext_resource type="Texture2D" uid="uid://72su062tex8p" path="res://assets/game/characters/free_cow_sprites.png" id="1_6a5le"]
-[ext_resource type="Script" path="res://scenes/characters/cow/cow.gd" id="1_pkls1"]
-[ext_resource type="Script" path="res://scripts/state_machine/node_state_machine.gd" id="2_tdgkx"]
-[ext_resource type="Script" path="res://scenes/characters/npc_states/idle_state.gd" id="3_wobia"]
-[ext_resource type="Script" path="res://scenes/characters/npc_states/walk_state.gd" id="4_f7xov"]
+[ext_resource type="Script" uid="uid://bkx4idfrgje8y" path="res://scenes/characters/cow/cow.gd" id="1_pkls1"]
+[ext_resource type="Script" uid="uid://drbchyhlrkf85" path="res://scripts/state_machine/node_state_machine.gd" id="2_tdgkx"]
+[ext_resource type="Script" uid="uid://20fcsh3lpsoh" path="res://scenes/characters/npc_states/idle_state.gd" id="3_wobia"]
+[ext_resource type="Script" uid="uid://b3rg1rgavflj0" path="res://scenes/characters/npc_states/walk_state.gd" id="4_f7xov"]
 [ext_resource type="PackedScene" uid="uid://j8io1rnyvspg" path="res://audio/sfx/cow_moo_sfx.tscn" id="6_bya8m"]
 [ext_resource type="PackedScene" uid="uid://yyji178wojto" path="res://scenes/components/audio_play_time_component.tscn" id="7_1ech1"]
 

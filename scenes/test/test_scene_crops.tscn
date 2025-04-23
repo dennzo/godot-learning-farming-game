@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=4 uid="uid://t7vq67gpnxl7"]
 
-[ext_resource type="Script" path="res://scenes/objects/plants/grow_cycle_component.gd" id="1_4r0gx"]
+[ext_resource type="Script" uid="uid://cynld53wipjlc" path="res://scenes/objects/plants/grow_cycle_component.gd" id="1_4r0gx"]
 [ext_resource type="PackedScene" uid="uid://bsbjubwmudw2p" path="res://scenes/components/day_night_cycle_component.tscn" id="1_vdt5e"]
 [ext_resource type="TileSet" uid="uid://dnn6xol3hw3qs" path="res://tilesets/game_tile_set.tres" id="2_t15cy"]
 [ext_resource type="PackedScene" uid="uid://dhd5pbxlbyspg" path="res://scenes/characters/player/player.tscn" id="3_mr215"]

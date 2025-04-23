@@ -1,10 +1,10 @@
 [gd_scene load_steps=16 format=3 uid="uid://dixx01jv3stjx"]
 
 [ext_resource type="Texture2D" uid="uid://bint0ms8rtvh" path="res://assets/game/characters/free_chicken_sprites.png" id="1_igelo"]
-[ext_resource type="Script" path="res://scenes/characters/chicken/chicken.gd" id="1_qdmtj"]
-[ext_resource type="Script" path="res://scripts/state_machine/node_state_machine.gd" id="2_ljkin"]
-[ext_resource type="Script" path="res://scenes/characters/npc_states/idle_state.gd" id="3_lnnwa"]
-[ext_resource type="Script" path="res://scenes/characters/npc_states/walk_state.gd" id="4_2bv4j"]
+[ext_resource type="Script" uid="uid://ognxwibj3miv" path="res://scenes/characters/chicken/chicken.gd" id="1_qdmtj"]
+[ext_resource type="Script" uid="uid://drbchyhlrkf85" path="res://scripts/state_machine/node_state_machine.gd" id="2_ljkin"]
+[ext_resource type="Script" uid="uid://20fcsh3lpsoh" path="res://scenes/characters/npc_states/idle_state.gd" id="3_lnnwa"]
+[ext_resource type="Script" uid="uid://b3rg1rgavflj0" path="res://scenes/characters/npc_states/walk_state.gd" id="4_2bv4j"]
 [ext_resource type="PackedScene" uid="uid://bpa7e4e6w07y4" path="res://audio/sfx/chicken_cluck_multiple_sfx.tscn" id="6_je486"]
 [ext_resource type="PackedScene" uid="uid://yyji178wojto" path="res://scenes/components/audio_play_time_component.tscn" id="7_45n2b"]
 

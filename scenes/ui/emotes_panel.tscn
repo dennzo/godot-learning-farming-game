@@ -2,7 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://df7ubhepxbxwp" path="res://scenes/ui/game_ui_theme.tres" id="1_jo8fg"]
 [ext_resource type="Texture2D" uid="uid://chcveo13p6f6l" path="res://assets/ui/emotes.png" id="2_ifbv0"]
-[ext_resource type="Script" path="res://scenes/ui/emotes_panel.gd" id="2_o6esb"]
+[ext_resource type="Script" uid="uid://cxddma44jph53" path="res://scenes/ui/emotes_panel.gd" id="2_o6esb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8ce4y"]
 atlas = ExtResource("2_ifbv0")

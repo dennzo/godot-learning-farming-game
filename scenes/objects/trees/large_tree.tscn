@@ -1,10 +1,10 @@
 [gd_scene load_steps=10 format=3 uid="uid://b8ql863vq8fg8"]
 
-[ext_resource type="Shader" path="res://scenes/objects/trees/shake.gdshader" id="1_bicj0"]
+[ext_resource type="Shader" uid="uid://b8ik0fesxqbp" path="res://scenes/objects/trees/shake.gdshader" id="1_bicj0"]
 [ext_resource type="Texture2D" uid="uid://d2r0uy04457cl" path="res://assets/game/objects/basic_grass_biom_things.png" id="2_e1i58"]
-[ext_resource type="Script" path="res://scenes/objects/trees/large_tree.gd" id="3_w00yw"]
+[ext_resource type="Script" uid="uid://pe2kpwbmbtwc" path="res://scenes/objects/trees/large_tree.gd" id="3_w00yw"]
 [ext_resource type="PackedScene" uid="uid://hhgxvba1rht3" path="res://scenes/components/hurt_component.tscn" id="4_0fk4l"]
-[ext_resource type="Script" path="res://scenes/components/damage_component.gd" id="5_2s0uh"]
+[ext_resource type="Script" uid="uid://rgj73a68h0v0" path="res://scenes/components/damage_component.gd" id="5_2s0uh"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o2y70"]
 resource_local_to_scene = true

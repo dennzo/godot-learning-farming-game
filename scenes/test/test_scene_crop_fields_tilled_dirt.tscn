@@ -1,6 +1,6 @@
 [gd_scene load_steps=17 format=4 uid="uid://bnvx3ymqlipaw"]
 
-[ext_resource type="Script" path="res://scenes/objects/plants/grow_cycle_component.gd" id="1_k5bdd"]
+[ext_resource type="Script" uid="uid://cynld53wipjlc" path="res://scenes/objects/plants/grow_cycle_component.gd" id="1_k5bdd"]
 [ext_resource type="PackedScene" uid="uid://bsbjubwmudw2p" path="res://scenes/components/day_night_cycle_component.tscn" id="2_5hf7l"]
 [ext_resource type="PackedScene" uid="uid://cmbom5tp1q3im" path="res://scenes/components/test_scene_enable_tool_buttons_component.tscn" id="2_5owd4"]
 [ext_resource type="PackedScene" uid="uid://d288uvbovjkcj" path="res://scenes/components/test_scene_save_data_manager_component.tscn" id="2_ej2lo"]
@@ -10,12 +10,12 @@
 [ext_resource type="PackedScene" uid="uid://c6u48cj6uxxf3" path="res://scenes/components/field_cursor_component.tscn" id="6_d2reb"]
 [ext_resource type="PackedScene" uid="uid://d2370o82ddnpj" path="res://scenes/objects/plants/corn.tscn" id="6_kok0a"]
 [ext_resource type="PackedScene" uid="uid://da2nnnewmcsqa" path="res://scenes/components/save_data_component.tscn" id="7_4xl8t"]
-[ext_resource type="Script" path="res://scenes/components/field_cursor_component.gd" id="7_syi20"]
+[ext_resource type="Script" uid="uid://duusbruifp80o" path="res://scenes/components/field_cursor_component.gd" id="7_syi20"]
 [ext_resource type="PackedScene" uid="uid://c2vcslpg6bjdd" path="res://scenes/components/crops_cursor_component.tscn" id="8_0jayh"]
 [ext_resource type="Resource" uid="uid://msww8soja88e" path="res://resources/tilemap_layer_data_resource.tres" id="8_eks3x"]
-[ext_resource type="Script" path="res://scenes/components/crops_cursor_component.gd" id="9_t8yog"]
+[ext_resource type="Script" uid="uid://os3ugxhdnnjl" path="res://scenes/components/crops_cursor_component.gd" id="9_t8yog"]
 [ext_resource type="PackedScene" uid="uid://bvg3smiksdnfd" path="res://scenes/components/save_level_data_component.tscn" id="10_fj8uj"]
-[ext_resource type="Script" path="res://scenes/components/save_level_data_component.gd" id="11_nm8c1"]
+[ext_resource type="Script" uid="uid://bociuevgiy2ui" path="res://scenes/components/save_level_data_component.gd" id="11_nm8c1"]
 
 [node name="TestSceneCropFieldsTilledDirt" type="Node2D"]
 script = ExtResource("1_k5bdd")

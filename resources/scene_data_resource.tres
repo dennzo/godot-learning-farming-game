@@ -1,6 +1,11 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cfohqlq07ce3f"]
+[gd_resource type="Resource" script_class="SceneDataResource" load_steps=2 format=3 uid="uid://cfohqlq07ce3f"]
 
-[ext_resource type="Script" path="res://resources/scene_data_resource.gd" id="1_4s28x"]
+[ext_resource type="Script" uid="uid://hp54rttv1ipr" path="res://resources/scene_data_resource.gd" id="1_4s28x"]
 
 [resource]
 script = ExtResource("1_4s28x")
+node_name = ""
+scene_file_path = ""
+global_position = Vector2(0, 0)
+node_path = NodePath("")
+parent_node_path = NodePath("")

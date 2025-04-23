@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=4 uid="uid://bwsfrxghhnetd"]
 
 [ext_resource type="TileSet" uid="uid://dnn6xol3hw3qs" path="res://tilesets/game_tile_set.tres" id="1_ws2yy"]
-[ext_resource type="Script" path="res://scenes/ui/game_menu_screen_background.gd" id="1_ynnh4"]
+[ext_resource type="Script" uid="uid://deeh4bjj00xt1" path="res://scenes/ui/game_menu_screen_background.gd" id="1_ynnh4"]
 [ext_resource type="PackedScene" uid="uid://dhd5pbxlbyspg" path="res://scenes/characters/player/player.tscn" id="2_8028n"]
 [ext_resource type="PackedScene" uid="uid://dnmld6ge6mays" path="res://scenes/houses/MediumHouse.tscn" id="3_3juf1"]
 [ext_resource type="PackedScene" uid="uid://b51n04uhiesfg" path="res://scenes/characters/cow/cow.tscn" id="4_v47ce"]

@@ -2,7 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://df7ubhepxbxwp" path="res://scenes/ui/game_ui_theme.tres" id="1_g0ecb"]
 [ext_resource type="Texture2D" uid="uid://c0nt0t3lasfdq" path="res://assets/game/objects/basic_plants.png" id="2_3r04y"]
-[ext_resource type="Script" path="res://scenes/ui/tools_panel.gd" id="2_mj45b"]
+[ext_resource type="Script" uid="uid://cpn517i0xnsmf" path="res://scenes/ui/tools_panel.gd" id="2_mj45b"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0j63i"]
 load_path = "res://.godot/imported/basic_tools_and_meterials.png-dc4e25f18f664f6d22b0d3438dace52c.ctex"
