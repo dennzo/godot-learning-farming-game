@@ -1,0 +1,42 @@
+[gd_scene load_steps=10 format=3 uid="uid://d2370o82ddnpj"]
+
+[ext_resource type="Script" path="res://scenes/objects/plants/corn.gd" id="1_akoho"]
+[ext_resource type="Texture2D" uid="uid://c0nt0t3lasfdq" path="res://assets/game/objects/basic_plants.png" id="1_nos4a"]
+[ext_resource type="PackedScene" uid="uid://hhgxvba1rht3" path="res://scenes/components/hurt_component.tscn" id="2_p6g1s"]
+[ext_resource type="PackedScene" uid="uid://00k4stfkpxoa" path="res://scenes/objects/plants/grow_cycle_component.tscn" id="3_pevyt"]
+[ext_resource type="PackedScene" uid="uid://b2i1tlgun8rkk" path="res://scenes/objects/plants/flowering_particles.tscn" id="3_y80qp"]
+[ext_resource type="PackedScene" uid="uid://birhntwpk3rpp" path="res://scenes/objects/plants/watering_particles.tscn" id="4_1ytip"]
+[ext_resource type="PackedScene" uid="uid://da2nnnewmcsqa" path="res://scenes/components/save_data_component.tscn" id="7_v21i5"]
+[ext_resource type="Resource" uid="uid://cfohqlq07ce3f" path="res://resources/scene_data_resource.tres" id="8_ngel4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6ijr7"]
+size = Vector2(13, 8)
+
+[node name="Corn" type="Node2D"]
+y_sort_enabled = true
+script = ExtResource("1_akoho")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -4)
+texture = ExtResource("1_nos4a")
+hframes = 6
+vframes = 2
+frame = 1
+
+[node name="WateringParticles" parent="." instance=ExtResource("4_1ytip")]
+
+[node name="FloweringParticles" parent="." instance=ExtResource("3_y80qp")]
+
+[node name="GrowCycleComponent" parent="." instance=ExtResource("3_pevyt")]
+days_until_harvest = 8
+
+[node name="HurtComponent" parent="." instance=ExtResource("2_p6g1s")]
+position = Vector2(0, -4)
+tool = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
+position = Vector2(-1.5, 3)
+shape = SubResource("RectangleShape2D_6ijr7")
+
+[node name="SaveDataComponent" parent="." instance=ExtResource("7_v21i5")]
+save_data_resource = ExtResource("8_ngel4")

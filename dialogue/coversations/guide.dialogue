@@ -1,0 +1,15 @@
+~ start
+
+Kukupri: [[Hi|Hello|Howdy]], welcome to the abandoned farm.
+Kukupri: I have been taking care of it for the last 10 years.
+Kukupri: Wait, you look oddly familiar. Aren't you PLAYER_NAME?
+Kukupri: Have some seeds.
+- Take crop seeds
+	Teemo: Yeah gimme.
+	do GameDialogueManager.action_give_crop_seeds()
+- No thanks
+	Teemo: I am not ready to grow my farm yet.
+
+
+
+=> END

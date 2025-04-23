@@ -1,0 +1,30 @@
+[gd_scene load_steps=7 format=3 uid="uid://cd7s1ty85s1bt"]
+
+[ext_resource type="PackedScene" uid="uid://bsbjubwmudw2p" path="res://scenes/components/day_night_cycle_component.tscn" id="1_7kpm6"]
+[ext_resource type="PackedScene" uid="uid://6lo8b36c44dh" path="res://scenes/components/mouse_cursor_component.tscn" id="1_x477y"]
+[ext_resource type="PackedScene" uid="uid://dhd5pbxlbyspg" path="res://scenes/characters/player/player.tscn" id="2_3te65"]
+[ext_resource type="PackedScene" uid="uid://bbhhv6ykn8ufe" path="res://scenes/ui/game_screen.tscn" id="2_ddfdc"]
+[ext_resource type="Texture2D" uid="uid://dtsjpdvic3gvt" path="res://assets/ui/mouse_icon.png" id="2_wk6fu"]
+[ext_resource type="PackedScene" uid="uid://d2t0j1otlwb20" path="res://scenes/levels/level_1.tscn" id="3_mi5in"]
+
+[node name="MainScene" type="Node"]
+
+[node name="MouseCursorComponent" parent="." instance=ExtResource("1_x477y")]
+cursor_component_texture = ExtResource("2_wk6fu")
+
+[node name="DayNightCycleComponent" parent="." instance=ExtResource("1_7kpm6")]
+
+[node name="GameRoot" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="LevelRoot" type="Node2D" parent="GameRoot"]
+y_sort_enabled = true
+
+[node name="Level1" parent="GameRoot/LevelRoot" instance=ExtResource("3_mi5in")]
+
+[node name="Player" parent="GameRoot" groups=["player"] instance=ExtResource("2_3te65")]
+position = Vector2(412, 333)
+
+[node name="Camera2D" type="Camera2D" parent="GameRoot/Player"]
+
+[node name="GameScreen" parent="." instance=ExtResource("2_ddfdc")]

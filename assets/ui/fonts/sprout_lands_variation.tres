@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://b1kfgyrdtbkmr"]
+
+[ext_resource type="FontFile" uid="uid://dlose60oms17g" path="res://assets/ui/fonts/sprout_lands_font.ttf" id="1_8qqs5"]
+
+[resource]
+base_font = ExtResource("1_8qqs5")
